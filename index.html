@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem-Template</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            background: url('girl1.jpg') no-repeat;
+            background-size: 100%;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            padding: 23px;
+            font-size: xx-large;
+            text-shadow: 4px 4px red;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: x-large;
+            color: black;
+            text-shadow: 1px 1px red;
+        }
+
+        .sd-class {
+            display: flex;
+            justify-content: center;
+        }
+
+        .sd-class p {
+            margin: auto;
+            padding: 13px;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 927px) {
+            .sd-class p {
+                width: 100%;
+                margin: 0px;
+                padding: 9px;
+            }
+        }
+
+        @media screen and (max-width: 830px) {
+            .container {
+                background: none;
+            }
+
+            .t-heading {
+                background: url('girl1.jpg');
+            }
+        }
+
+        @media screen and (max-width: 520px) {
+            .heading {
+                font-size: large;
+            }
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 10fr 1fr;
+        }
+
+        .poem {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            margin: 34px;
+            font-size: x-large;
+            font-weight: bold;
+            color: black;
+            text-shadow: 2px 2px red;
+        }
+
+        .para {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .p-class {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            font-weight: bold;
+            text-shadow: 1px 1px blue;
+            color: red;
+        }
+
+        .i-class {
+            display: flex;
+            align-items: center;
+        }
+
+        .i-class img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: -44px 44px 64px #19231f;
+        }
+
+        @media screen and (max-width: 1100px) {
+            .para {
+                display: block;
+            }
+        }
+
+        .summary {
+            color: black;
+            text-shadow: 1px 1px red;
+            font-size: x-large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading t-heading">
+            <h1>The Solitary Missy</h1>
+        </div>
+        <div class="description sd-class">
+            <p>
+                The author of the poem is a traveller who travels across the countries in the purpose of his business.
+                He tends to travel long distances with his fellow mates and explore things. He is a poet and a
+                sound listener who tries to express all his hearings in the form of his feelings.
+            </p>
+            <p>
+                This poem is all about a girl whom the author is not knowing about. The author saw her singing on the
+                way he crosses by and is addicted to her voice because her voice completely removes his tierdness and
+                refreshes his mind. He tries to explain his fellow mates about her singing by hearing her words.
+            </p>
+            <p>
+                Nobody knows exactly about her singing. However, according to author, her voice seems to send a message
+                about some of her familiar pain that she has suffered with and wanna remove her sorrow by singing a
+                song.
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="empty"></div>
+        <div class="poem">
+            <div class="title">
+                <h2>THE SOLITARY MISSY</h2>
+            </div>
+            <div class="para">
+                <div class="p-class">
+                    <br>
+                    Behold her, sitting alone,<br>
+                    A shy, beautiful and adorable lass.<br>
+                    Lost in her own thinkings,<br>
+                    So wait for her, or gently pass.<br>
+                    <br>
+                    Alone she thinks about her pain,<br>
+                    Which let her live in strain.<br>
+                    O listen! her song's sound,<br>
+                    That is overflowing from the ground.<br>
+                    <br>
+                    A voice so thrilling, never I've heard,<br>
+                    At anytime from any bird.<br>
+                    Which makes me feel proud,<br>
+                    By breaking the noise of the crowd.<br>
+                    <br>
+                    Will no one tell me what she sings,<br>
+                    Or should I go and listen to her.<br>
+                    Perheps some of her familiar loss or pain,<br>
+                    That has happened and may be again.<br>
+                    <br>
+                    Whatever the theme she may sings,<br>
+                    May her voice deliver what she is sending.<br>
+                    I saw a beauty, to be given a friendship ring,<br>
+                    So that none of her pain may be pending.<br>
+                    <br>
+                    However, I have to go on my path,<br>
+                    Leaving the sound which refreshed my heart.<br>
+                    Hope her singing may remove her sore,<br>
+                    But long after, I heard her voice no more.<br>
+                    <br>
+                    <br>
+                    --VIVEK KUMAR
+                </div>
+                <div class="i-class"><img src="girl2.jpg" alt="Error Loading"></div>
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+
+    <div class="heading">
+        <h1>
+            Summary
+        </h1>
+    </div>
+    <div class="summary sd-class">
+        <p>
+            This poem is all about a shy and beautiful girl who is thinking about something or probably of her past
+            which no one correctly knows. The poet is a traveller who is travelling through the way for his purpose of
+            business and saw the girl sitting lonely and singing a song which addicts his mind. Her voice rejoices poet
+            and removes all of his tierdness that he has come across in his way to destiny. Her voice is giving the poet
+            the pleasure, that he is addressing her voice better than any bird. Her voice is so still and calm that even
+            in the crowd of noise it is clearly audible and this makes the poet feel proud. However, the poet is unable
+            to understand clearly what she is singing about and what her matter is so he asks his mates about it but
+            doesn't get any correct explaination. By hearing her voice, he redirects that she may be singing about some
+            of her familiar loss or pain which she has suffered with and may suffer again. Lastly, poet conveys that
+            whatever she may sings or whatever her song may be about, may her voice deliver what she wanna reveal and
+            cures her inevitable sufferings. He addressess her a natural beauty that should be made friend so as to cure
+            all of her pain because she is in keen need of care but as the poet is on his way through the purpose of his
+            business, he has to go leaving her voice that rejoiced his heart. And on moving he wishes that her pain may
+            get over but as he and his mates moved far and far, her voice started fainting and after long time they
+            heard her voice no more.
+        </p>
+    </div>
+
+</body>
+
+</html>
